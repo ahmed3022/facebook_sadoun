@@ -1,0 +1,242 @@
+body {
+background-color: rgba(232, 231, 238 ,0.5);
+color:#1c1e21;
+direction: rtl;
+margin: 0;
+padding: 0;
+}
+:root {
+    --mar-right: 181px;
+
+}
+.facebook_logo{
+    margin-top: 80px;
+        height: 70px;
+}
+.right_section {
+    margin-right: var(--mar-right);
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.text1 {
+    font-family:inherit;
+    font-weight: normal;
+    font-size: 29px;
+    font-weight: 500;
+    margin-top: -5px;
+    margin-right: 20px;
+}
+.text2 {
+    color:#606770;
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+    margin-top: -22px;
+}
+.card1 {
+    background-color: #fff;
+    width: 160px;
+    height: 205px;
+    box-shadow: 0 0 1px 0.1px rgb(41, 24, 24);
+    border-radius: 7px;
+    margin-right:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    position: relative;
+    cursor: pointer;
+    transition: .3s;
+}
+.card1:hover {
+    box-shadow: 0 0 10px 2px rgb(189, 185, 185);
+}
+.card1::before {
+    content: "3";
+    width: 25px;
+    height: 25px;
+    background-color: rgb(248, 14, 14);
+    color:white;
+    border-radius: 22.5px;
+    position: absolute;
+    top:-3px;
+    left: -3px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+}
+.image1 {
+    width: 100%;
+    border-radius: 100px;
+    position:absolute;
+    top:0px; 
+    right: 0px;
+    cursor: pointer;
+}
+.close {
+    position: absolute;
+    top:2px;
+    right: 2px;
+    width: 17px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+}
+.close:hover {
+    width:22px;
+}
+.text3 {
+    position: absolute;
+    bottom: -7px;
+    font-size:19px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.card2 {
+    width: 160px;
+    height: 205px;
+    border-radius: 7px;
+    margin-right:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    position: relative;
+    cursor: pointer;
+    transition: .3s;
+    background-color: #fff;
+    box-shadow: 0 0 1px 0.1px rgb(41, 24, 24);
+}
+.card2:hover {
+    box-shadow: 0 0 10px 2px rgb(189, 185, 185);
+}
+.parent {
+    margin-top: -15px;
+    display: flex;
+}
+.add {
+    position: relative;
+    bottom: 25px;
+    border-radius: 44px;
+}
+.text4 {
+    position: absolute;
+    bottom: -26.5px;
+    background-color: rgb(235, 235, 231);
+    width:100%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color:#1a78f4;
+    font-size: 20px;
+}
+.left_section{
+    width: 396px;
+    background-color: #fff;
+    position: absolute;
+    left:185px;
+    top: 132px;
+    border-radius: 8px;
+    padding-top:20px;
+    box-shadow: 0 0 5px 0.1px rgb(201, 196, 196);
+}
+.email {
+    width:85%;
+    display: block;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #dddfe2;
+    line-height: 16px;
+    height:30px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+input:focus{
+    outline: none;
+    box-shadow: 0 0 1px 0.7px blue;
+}
+.pass {
+    width:85%;
+    display: block;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #dddfe2;
+    line-height: 16px;
+    height:30px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 13px;
+} 
+.submit {
+    width: 360px;;
+    display: block;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #dddfe2;
+    line-height: 16px;
+    height:30px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 13px;
+    line-height: 20px;
+    height: 50px;
+    background-color: #1a78f4;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.submit:hover {
+    background-color: #2e77d6;
+}
+.for_pass{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    color:blue
+}
+.for_pass:hover {
+    text-decoration: underline;
+}
+hr{
+    width:90%;
+    color:rgb(77, 76, 73);
+    opacity: 0.5;
+    margin-top: 20px;
+}
+.creat{
+    display: inline-block;
+    background-color: rgb(9, 189, 9);
+    color:#fff;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.creat:hover{
+    background-color: rgb(12, 158, 12);
+}
+.fem{
+    position: absolute;
+    left: 220px;
+    bottom: 80px;
+}
+.fem a {
+    color:rgb(39, 36, 36);
+    font-weight:bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+.fem a:hover{
+    text-decoration: underline;
+}
